@@ -1,0 +1,7 @@
+#pragma once
+
+#define MY_PACKAGE_VERSION_MAJOR @gafro_control_example_VERSION_MAJOR@
+#define MY_PACKAGE_VERSION_MINOR @gafro_control_example_VERSION_MINOR@
+#define MY_PACKAGE_VERSION_PATCH @gafro_control_example_VERSION_PATCH@
+
+#define DEBUG @DEBUG_MODE@

@@ -1,0 +1,12 @@
+[submodule "deps/gafro"]
+	path = deps/gafro
+	url = https://github.com/SestosensoEU/gafro
+[submodule "deps/orwell"]
+	path = deps/orwell
+	url = https://gitlab.com/tloew/orwell.git
+[submodule "deps/sackmesser"]
+	path = deps/sackmesser
+	url = https://gitlab.com/tloew/sackmesser.git
+[submodule "deps/gafro_robot_descriptions"]
+	path = deps/gafro_robot_descriptions
+	url = https://gitlab.com/gafro/gafro_robot_descriptions.git

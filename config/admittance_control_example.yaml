@@ -1,0 +1,18 @@
+controller_manager:
+  torque_controllers: 
+    - admittance_controller
+  velocity_controllers: []
+  position_controllers: []
+  torque_controller: 
+    admittance_controller:
+        type: motor_admittance_controller
+        command_limits: [87.0, 87.0, 87.0, 87.0, 12.0, 12.0, 12.0]
+        inertia:
+          mass: 10.0
+          tensor: [10.0, 0.0, 0.0, 10.0, 0.0, 10.0]
+        damping:
+          mass: 50.0
+          tensor: [50.0, 0.0, 0.0, 50.0, 0.0, 50.0]
+        stiffness:
+          mass: 100.0
+          tensor: [100.0, 0.0, 0.0, 100.0, 0.0, 100.0]
