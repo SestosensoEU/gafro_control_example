@@ -1,6 +1,6 @@
 [submodule "deps/gafro"]
 	path = deps/gafro
-	url = https://github.com/SestosensoEU/gafro
+	url = git@github.com:SestosensoEU/gafro.git
 [submodule "deps/orwell"]
 	path = deps/orwell
 	url = https://gitlab.com/tloew/orwell.git
