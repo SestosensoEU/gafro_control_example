@@ -1,0 +1,12 @@
+dual_arm_controller:
+    command_limits: [87.0, 87.0, 87.0, 87.0, 12.0, 12.0, 12.0]
+    control_frequency: 1000
+    inertia:
+      mass: 10.0
+      tensor: [10.0, 0.0, 0.0, 10.0, 0.0, 10.0]
+    damping:
+      mass: 50.0
+      tensor: [50.0, 0.0, 0.0, 50.0, 0.0, 50.0]
+    stiffness:
+      mass: 100.0
+      tensor: [100.0, 0.0, 0.0, 100.0, 0.0, 100.0]

@@ -1,2 +1,5 @@
 add_executable(admittance_control_example admittance_control_example.cpp)
 target_link_libraries(admittance_control_example PUBLIC sackmesser sackmesser_runtime orwell gafro gafro_robot_descriptions)
+
+add_executable(dual_arm_admittance_control_example dual_arm_admittance_control_example.cpp)
+target_link_libraries(dual_arm_admittance_control_example PUBLIC sackmesser sackmesser_runtime orwell gafro gafro_robot_descriptions)
